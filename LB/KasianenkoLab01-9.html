@@ -1,0 +1,48 @@
+<HTML>
+	<HEAD>
+	<TITLE> Касяненко Денис 304-тн </TITLE>
+	<meta charset=UTF-8>
+	<meta name="Descripton" content="Опис мене та опис моїх захопленнь">
+	<meta name="Keywords" content="Біографія,Лабораторна">
+	</HEAD>
+	<BODY BGCOLOR="#d9ffa1">
+		<U><h1>Про мене</h1></U>
+		<p align="justify">
+			<Font color="009000" size="5">
+			<B>ім'я:</B> Касяненко Денис, <B>вік:</B> <u>19</u>, <B>стать:</B> Ч, 
+			<b>статус:</b> <u>Студент</u>, <b>місце навчання:</b> 
+			Полтавської політехніка імені Ю.Кондратюка, 
+			<b>сімейний стан</b>: <u>незаміжній</u>, <b>кодове ім`я:</b> <i><u>Памперс</u>.</i>
+			</font>
+		</p>
+		<U><h1>Моє хоббі</h1></U>
+		<Font color="004030" size="5">
+		<p align="justify">
+		цікавлюся <b>розробкою</b> відеоігор, <b>малюю</b>, <b>граю</b> у відеоігри <i>(логічно)</i>, <b>слухаю</b> музику.
+		</p>
+		</font>
+		<h2>Програмування</h2>
+		<pre>
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
+public class GlobalValueScript : MonoBehaviour
+{
+    public Volume volume;
+    void Start()
+    {
+        if(SceneManager.GetActiveScene().name == "MainMenu" && volume != null)
+        {
+            volume.weight = 1f;
+        }
+        else
+        {
+            volume.weight = 0.33f;
+        }
+    }
+}
+		</pre>
+			<BR>
+			<I><U>Студент группи 304-тн Касяненко Д.В</U></I>
+	</BODY>
+</HTML>
